@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.heading{
+    height: 50px;
+    background-color: pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choices{
+    height:200px;
+     display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+#rock{
+    width: 150px;
+    height: 150px;
+   border-radius: 50px;
+   background-color: black;
+   background-image: url(rock.jpeg);
+    object-fit:fill;
+    border-style: solid;
+
+}
+
+#paper{
+    width: 150px;
+    height: 150px;
+  background-image: url(paper1.jpg);
+   object-fit:cover;
+   
+}
+
+#scissor{
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+   background-image: url(scissor.jpeg);
+    object-fit: cover;
+}
+
+.score-board{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 1.4rem;
+}
+
+.result{
+    margin-top: 15px;
+}
+
+#msg{
+    margin-top: 5px;
+    background-color: rgb(240, 243, 245);
+    display: inline;
+    padding: 5px;
+    font: size 1.4rem; 
+    border: 2px solid;
+}
